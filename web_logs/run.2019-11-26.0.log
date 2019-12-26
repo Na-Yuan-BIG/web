@@ -1,0 +1,188 @@
+2019-11-26 11:14:16.302 [http-nio-9800-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-26 11:14:17.384 [http-nio-9800-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-26 11:14:18.370 [http-nio-9800-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 986 ms
+2019-11-26 12:51:44.885 [http-nio-9800-exec-8] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1556517082; JSESSIONID=F19575707C9BAF6A64794ED24A0C5A18] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-26 14:18:47.132 [restartedMain] INFO  big.ac.cn.web.WebApplication - Starting WebApplication on DESKTOP-2IIOMS8 with PID 31820 (D:\bigd-github\web\target\classes started by yuanna in D:\bigd-github\web)
+2019-11-26 14:18:47.135 [restartedMain] INFO  big.ac.cn.web.WebApplication - No active profile set, falling back to default profiles: default
+2019-11-26 14:18:47.230 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5066ec45: startup date [Tue Nov 26 14:18:47 CST 2019]; root of context hierarchy
+2019-11-26 14:18:47.490 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-11-26 14:18:48.985 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9800 (http)
+2019-11-26 14:18:49.004 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-26 14:18:49.004 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-11-26 14:18:49.240 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-26 14:18:49.245 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-26 14:18:49.245 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2015 ms
+2019-11-26 14:18:49.354 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-26 14:18:49.356 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-26 14:18:49.357 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-26 14:18:49.357 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-26 14:18:49.357 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-26 14:18:50.067 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5066ec45: startup date [Tue Nov 26 14:18:47 CST 2019]; root of context hierarchy
+2019-11-26 14:18:50.136 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.help(org.springframework.ui.Model)
+2019-11-26 14:18:50.136 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.index()
+2019-11-26 14:18:50.136 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.test(org.springframework.ui.Model)
+2019-11-26 14:18:50.136 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/results]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.output(org.springframework.ui.Model,java.lang.String)
+2019-11-26 14:18:50.137 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demoResults]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.demo(org.springframework.ui.Model)
+2019-11-26 14:18:50.137 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/documentation]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.documents(org.springframework.ui.Model)
+2019-11-26 14:18:50.137 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seecgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.cgwas(org.springframework.ui.Model)
+2019-11-26 14:18:50.137 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/submit]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.browse(org.springframework.ui.Model)
+2019-11-26 14:18:50.137 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seechrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.download(org.springframework.ui.Model)
+2019-11-26 14:18:50.137 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/chrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.chr(org.springframework.ui.Model)
+2019-11-26 14:18:50.138 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/variant],produces=[application/json;charset=UTF-8]}" onto public java.util.List<big.ac.cn.web.entity.VarInfo> big.ac.cn.web.controller.SearchController.select(java.lang.String)
+2019-11-26 14:18:50.138 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/run]}" onto public java.lang.String big.ac.cn.web.controller.UploadController.upload(org.springframework.ui.ModelMap,org.springframework.web.multipart.MultipartFile,java.lang.String)
+2019-11-26 14:18:50.139 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testBean/testDemo]}" onto public java.lang.String big.ac.cn.web.TestBean.TestDemo()
+2019-11-26 14:18:50.142 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-26 14:18:50.142 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-26 14:18:50.173 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/file/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:18:50.173 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:18:50.173 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:18:50.204 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:18:50.440 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-11-26 14:18:50.474 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-11-26 14:18:50.489 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9800"]
+2019-11-26 14:18:50.497 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9800"]
+2019-11-26 14:18:50.512 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-11-26 14:18:50.555 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9800 (http)
+2019-11-26 14:18:50.559 [restartedMain] INFO  big.ac.cn.web.WebApplication - Started WebApplication in 3.804 seconds (JVM running for 5.32)
+2019-11-26 14:19:16.103 [http-nio-9800-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1556517082; JSESSIONID=34CFFACB30B08B88E9EEECE63CDC3F00] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-26 14:19:16.107 [http-nio-9800-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-26 14:19:16.108 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-26 14:19:16.120 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2019-11-26 14:34:33.431 [restartedMain] INFO  big.ac.cn.web.WebApplication - Starting WebApplication on DESKTOP-2IIOMS8 with PID 29172 (D:\bigd-github\web\target\classes started by yuanna in D:\bigd-github\web)
+2019-11-26 14:34:33.433 [restartedMain] INFO  big.ac.cn.web.WebApplication - No active profile set, falling back to default profiles: default
+2019-11-26 14:34:33.485 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a6cc772: startup date [Tue Nov 26 14:34:33 CST 2019]; root of context hierarchy
+2019-11-26 14:34:33.585 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-11-26 14:34:34.619 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9800 (http)
+2019-11-26 14:34:34.632 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-26 14:34:34.633 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-11-26 14:34:34.800 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-26 14:34:34.803 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-26 14:34:34.803 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1318 ms
+2019-11-26 14:34:34.907 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-26 14:34:34.910 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-26 14:34:34.910 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-26 14:34:34.910 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-26 14:34:34.910 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-26 14:34:35.381 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a6cc772: startup date [Tue Nov 26 14:34:33 CST 2019]; root of context hierarchy
+2019-11-26 14:34:35.416 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.help(org.springframework.ui.Model)
+2019-11-26 14:34:35.416 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.index()
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.test(org.springframework.ui.Model)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/results]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.output(org.springframework.ui.Model,java.lang.String)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seechrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.download(org.springframework.ui.Model)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seecgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.cgwas(org.springframework.ui.Model)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/chrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.chr(org.springframework.ui.Model)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/documentation]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.documents(org.springframework.ui.Model)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/submit]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.browse(org.springframework.ui.Model)
+2019-11-26 14:34:35.417 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demoResults]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.demo(org.springframework.ui.Model)
+2019-11-26 14:34:35.418 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/variant],produces=[application/json;charset=UTF-8]}" onto public java.util.List<big.ac.cn.web.entity.VarInfo> big.ac.cn.web.controller.SearchController.select(java.lang.String)
+2019-11-26 14:34:35.418 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/run]}" onto public java.lang.String big.ac.cn.web.controller.UploadController.upload(org.springframework.ui.ModelMap,org.springframework.web.multipart.MultipartFile,java.lang.String)
+2019-11-26 14:34:35.419 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testBean/testDemo]}" onto public java.lang.String big.ac.cn.web.TestBean.TestDemo()
+2019-11-26 14:34:35.422 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-26 14:34:35.422 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-26 14:34:35.442 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/file/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:34:35.442 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:34:35.442 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:34:35.464 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 14:34:35.627 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-11-26 14:34:35.661 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-11-26 14:34:35.677 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9800"]
+2019-11-26 14:34:35.684 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9800"]
+2019-11-26 14:34:35.700 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-11-26 14:34:35.726 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9800 (http)
+2019-11-26 14:34:35.728 [restartedMain] INFO  big.ac.cn.web.WebApplication - Started WebApplication in 2.528 seconds (JVM running for 3.325)
+2019-11-26 14:35:19.204 [http-nio-9800-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1556517082; JSESSIONID=FF4CF8CF3F175C18C8172EECCDE75471] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-26 14:35:19.210 [http-nio-9800-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-26 14:35:19.210 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-26 14:35:19.223 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2019-11-26 16:18:12.450 [restartedMain] INFO  big.ac.cn.web.WebApplication - Starting WebApplication on DESKTOP-2IIOMS8 with PID 29892 (D:\bigd-github\web\target\classes started by yuanna in D:\bigd-github\web)
+2019-11-26 16:18:12.459 [restartedMain] INFO  big.ac.cn.web.WebApplication - No active profile set, falling back to default profiles: default
+2019-11-26 16:18:12.548 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5accae53: startup date [Tue Nov 26 16:18:12 CST 2019]; root of context hierarchy
+2019-11-26 16:18:12.674 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-11-26 16:18:13.993 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9800 (http)
+2019-11-26 16:18:14.010 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-26 16:18:14.010 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-11-26 16:18:14.199 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-26 16:18:14.204 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-26 16:18:14.205 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1657 ms
+2019-11-26 16:18:14.340 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-26 16:18:14.343 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-26 16:18:14.344 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-26 16:18:14.344 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-26 16:18:14.344 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-26 16:18:14.987 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5accae53: startup date [Tue Nov 26 16:18:12 CST 2019]; root of context hierarchy
+2019-11-26 16:18:15.037 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.help(org.springframework.ui.Model)
+2019-11-26 16:18:15.037 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.index()
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.test(org.springframework.ui.Model)
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/results]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.output(org.springframework.ui.Model,java.lang.String)
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/submit]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.browse(org.springframework.ui.Model)
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demoResults]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.demo(org.springframework.ui.Model)
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seecgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.cgwas(org.springframework.ui.Model)
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/documentation]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.documents(org.springframework.ui.Model)
+2019-11-26 16:18:15.038 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seechrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.download(org.springframework.ui.Model)
+2019-11-26 16:18:15.039 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/chrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.chr(org.springframework.ui.Model)
+2019-11-26 16:18:15.039 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/variant],produces=[application/json;charset=UTF-8]}" onto public java.util.List<big.ac.cn.web.entity.VarInfo> big.ac.cn.web.controller.SearchController.select(java.lang.String)
+2019-11-26 16:18:15.039 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/run]}" onto public java.lang.String big.ac.cn.web.controller.UploadController.upload(org.springframework.ui.ModelMap,org.springframework.web.multipart.MultipartFile,java.lang.String)
+2019-11-26 16:18:15.040 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testBean/testDemo]}" onto public java.lang.String big.ac.cn.web.TestBean.TestDemo()
+2019-11-26 16:18:15.042 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-26 16:18:15.042 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-26 16:18:15.065 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/file/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:18:15.066 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:18:15.066 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:18:15.091 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:18:15.308 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-11-26 16:18:15.346 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-11-26 16:18:15.362 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9800"]
+2019-11-26 16:18:15.370 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9800"]
+2019-11-26 16:18:15.387 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-11-26 16:18:15.503 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9800 (http)
+2019-11-26 16:18:15.506 [restartedMain] INFO  big.ac.cn.web.WebApplication - Started WebApplication in 3.337 seconds (JVM running for 4.762)
+2019-11-26 16:19:05.308 [http-nio-9800-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1556517082; JSESSIONID=882C73F81176AA41CAB2D1539FF71137] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-26 16:19:05.312 [http-nio-9800-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-26 16:19:05.312 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-26 16:19:05.324 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2019-11-26 16:35:00.214 [restartedMain] INFO  big.ac.cn.web.WebApplication - Starting WebApplication on DESKTOP-2IIOMS8 with PID 29224 (D:\bigd-github\web\target\classes started by yuanna in D:\bigd-github\web)
+2019-11-26 16:35:00.217 [restartedMain] INFO  big.ac.cn.web.WebApplication - No active profile set, falling back to default profiles: default
+2019-11-26 16:35:00.291 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661c3048: startup date [Tue Nov 26 16:35:00 CST 2019]; root of context hierarchy
+2019-11-26 16:35:00.386 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-11-26 16:35:01.447 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9800 (http)
+2019-11-26 16:35:01.460 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-26 16:35:01.460 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-11-26 16:35:01.620 [localhost-startStop-1] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-11-26 16:35:01.623 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-26 16:35:01.623 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1332 ms
+2019-11-26 16:35:01.720 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-26 16:35:01.723 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-26 16:35:01.723 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-26 16:35:01.724 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-11-26 16:35:01.724 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-11-26 16:35:02.352 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@661c3048: startup date [Tue Nov 26 16:35:00 CST 2019]; root of context hierarchy
+2019-11-26 16:35:02.392 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.help(org.springframework.ui.Model)
+2019-11-26 16:35:02.392 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.index()
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.test(org.springframework.ui.Model)
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/results]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.output(org.springframework.ui.Model,java.lang.String)
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seechrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.download(org.springframework.ui.Model)
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/submit]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.browse(org.springframework.ui.Model)
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/documentation]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.documents(org.springframework.ui.Model)
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/chrom]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.chr(org.springframework.ui.Model)
+2019-11-26 16:35:02.393 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/seecgwas]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.cgwas(org.springframework.ui.Model)
+2019-11-26 16:35:02.394 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demoResults]}" onto public java.lang.String big.ac.cn.web.controller.IndexController.demo(org.springframework.ui.Model)
+2019-11-26 16:35:02.394 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/variant],produces=[application/json;charset=UTF-8]}" onto public java.util.List<big.ac.cn.web.entity.VarInfo> big.ac.cn.web.controller.SearchController.select(java.lang.String)
+2019-11-26 16:35:02.394 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/run]}" onto public java.lang.String big.ac.cn.web.controller.UploadController.upload(org.springframework.ui.ModelMap,org.springframework.web.multipart.MultipartFile,java.lang.String)
+2019-11-26 16:35:02.395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testBean/testDemo]}" onto public java.lang.String big.ac.cn.web.TestBean.TestDemo()
+2019-11-26 16:35:02.396 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-26 16:35:02.397 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-26 16:35:02.416 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/file/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:35:02.416 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:35:02.416 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:35:02.441 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-26 16:35:02.617 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-11-26 16:35:02.668 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-11-26 16:35:02.683 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9800"]
+2019-11-26 16:35:02.690 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9800"]
+2019-11-26 16:35:02.706 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-11-26 16:35:02.733 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9800 (http)
+2019-11-26 16:35:02.736 [restartedMain] INFO  big.ac.cn.web.WebApplication - Started WebApplication in 2.793 seconds (JVM running for 3.755)
+2019-11-26 16:35:06.617 [http-nio-9800-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1556517082; JSESSIONID=E6B28DA5B81B57A9FD2B28BAB6820324] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2019-11-26 16:35:06.620 [http-nio-9800-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-26 16:35:06.621 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-26 16:35:06.632 [http-nio-9800-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms

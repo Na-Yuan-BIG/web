@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="big.ac.cn.web.mapper.GeneMapper">
+    <resultMap id="BaseResultMap" type="big.ac.cn.web.entity.Gene">
+        <result column="chrom" jdbcType="CHAR" property="chrom"/>
+        <result column="var_start" jdbcType="INTEGER" property="varStart"/>
+        <result column="var_end" jdbcType="INTEGER" property="varEnd"/>
+        <result column="refGene" jdbcType="VARCHAR" property="refGene"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+   chrom, var_start, var_end,refGene
+  </sql>
+    <!--<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">-->
+        <!--select-->
+        <!--<include refid="Base_Column_List"/>-->
+        <!--from table1-->
+        <!--where id = #{id,jdbcType=INTEGER}-->
+    <!--</select>-->
+
+    <!--<select id="selectByVarId" parameterType="HashMap" resultMap="BaseResultMap">-->
+        <!--select-->
+        <!--<include refid="Base_Column_List"/>-->
+        <!--from table1-->
+        <!--where var_id = #{varid,jdbcType=VARCHAR}-->
+    <!--</select>-->
+
+    <select id="selectByPos" parameterType="HashMap" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from gene
+        <where>
+            <if test="chrom!=null and chrom!='' and varStart!=null and varStart!='' and varEnd!=null and varEnd!=''">
+                chrom=#{chrom,jdbcType=CHAR} and var_end &gt;=  #{varStart,jdbcType=INTEGER} and var_start &lt;= #{varEnd,jdbcType=INTEGER}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>

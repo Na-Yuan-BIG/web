@@ -1,0 +1,10 @@
+weight
+waist
+hip
+bmi
+gly.hem
+height
+sleep.time
+creatinine
+chol
+ldl

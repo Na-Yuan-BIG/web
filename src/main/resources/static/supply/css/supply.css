@@ -1,0 +1,81 @@
+/* 画图补充的显示方式*/
+ .tooltip{
+	 font-size: 14px;
+	 width: auto;
+	 height: auto;
+	 position: absolute;
+	 text-align: left;
+	 border-style: solid; 
+	 border-width: 1px;
+	 background-color:white;
+	 border-radius: 5px;
+}
+table td{
+	text-align: left;
+}
+/*.informationtip{*/
+	 /*!*font-size: 20px;*!*/
+	 /*!*text-align:center;*!*/
+	 /*!*!*width: 500px;*!*!*/
+	 /*!*!*height: 200px;*!*!*/
+	 /*!*!*!*left: 900px;*!*!*!*/
+	 /*!*!*!*top: 1130px;*!*!*!*/
+	 /*!*!*position: absolute;*!*!*/
+	 /*border-width: 3px;*/
+	 /*!*!*background-color:#d3dff5;*!*!*/
+	 /*border-radius: 5px;*/
+/*}*/
+.header{
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	background-color: black;
+	}
+.MyText {
+fill: black;
+text-anchor: middle;
+font-size: 12px;
+}
+/*.Table{*/
+	/*border:"4";*/
+	/*width:60%;*/
+	/*height: 800;*/
+	/*border-style: groove double;*/
+	/*margin-left:auto;*/
+	/*margin-right:auto;*/
+/*}*/
+.navbar-nav{
+	margin-left:100;
+}
+.navbar-inverse{
+	margin-left:100;
+}
+.table1{
+  border-collapse:collapse;
+  border:3px solid #666;
+  color: black;
+  font-size:12px;
+  border-radius:25px;
+  
+}
+.table1 td{
+  border-top:0;
+  border-right:0px solid #999;
+  border-bottom:1px solid #999;
+  border-left:0;
+}
+.table1 tr.lastrow td{
+  border-bottom:0;
+}
+.table1 tr td.lastCol{
+  border-right:0;
+}
+/*.footer{*/
+	/*position:absolute;*/
+	/*bottom:0;*/
+	/*width:60%;*/
+	/*height:50px;*/
+	/*background-color: black;*/
+	/*text-align: center;*/
+/*}*/

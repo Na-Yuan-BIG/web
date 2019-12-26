@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!-- Globally enables or disables any caches configured in any mapper under this configuration -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- Sets the number of seconds the driver will wait for a response from the database -->
+        <setting name="defaultStatementTimeout" value="3000"/>
+        <!-- Enables automatic mapping from classic database column names A_COLUMN to camel case classic Java property names aColumn -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- Allows JDBC support for generated keys. A compatible driver is required.
+        This setting forces generated keys to be used if set to true,
+         as some drivers deny compatibility but still work -->
+        <setting name="useGeneratedKeys" value="true"/>
+
+        <!-- mybatis自带的打印mysql语句和结果到控制台界面,输出比较详细,但不能写入file，部署之前用这个，部署时用下面的 -->
+        <!--<setting name="logImpl" value="STDOUT_LOGGING" />-->
+
+        <!-- logback与mybatis结合时的配置，dao后面不要少了‘.’符号，需要进一步的对logcack.xml进行配置 -->
+        <setting name="logPrefix" value="dao."/>
+        <setting name="jdbcTypeForNull" value="NULL" />
+    </settings>
+
+    <!--<plugins>-->
+        <!--&lt;!&ndash; com.github.pagehelper为PageHelper类所在包名 &ndash;&gt;-->
+        <!--<plugin interceptor="com.github.pagehelper.PageInterceptor">-->
+            <!--&lt;!&ndash; 使用下面的方式配置参数，后面会有所有的参数介绍 &ndash;&gt;-->
+            <!--<property name="param1" value="value1"/>-->
+            <!--&lt;!&ndash;参数合理化 当也是小于&ndash;&gt;-->
+            <!--<property name="reasonable" value="true"/>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
+
+    <!-- Continue editing here -->
+
+</configuration>
